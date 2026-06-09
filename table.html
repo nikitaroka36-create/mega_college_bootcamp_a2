@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table, td, th{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        td, th {
+            padding: 10px;
+            text-align: center;
+        }
+        .even{
+            background-color: grey;
+        }
+        tr:nth-child(odd){
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Student Info</caption>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Score</th>
+        </tr>
+        <tr class="even">
+            <td rowspan="3">Ram</td>
+            <td colspan="2">12</td>
+        </tr>
+        <tr >
+            <td>14</td>
+            <td>34</td>
+        </tr>
+        <tr class="even">
+            <td>16</td>
+            <td>11</td>
+        </tr>
+    </table>
+    
+</body>
+</html>
