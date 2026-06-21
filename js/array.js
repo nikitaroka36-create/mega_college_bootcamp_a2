@@ -26,6 +26,10 @@ array1.forEach((item) =>{
     console.log(value);
 })
 
+for(let i = 0 ; i < array1.length ; i++){
+    
+}
+
 for(item of array2){
     console.log(item)
 }
